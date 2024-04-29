@@ -5,7 +5,7 @@
 /**
 * swap_node - Swaps a node for its previous one
 * @node: The node to swap
-* @list: The pointer to the head of the doubly linked list
+* @list: The pointer to the head
 *
 * Return: Pointer to the node which was swapped
 */
@@ -28,8 +28,8 @@ return (curr);
 
 /**
 * insertion_sort_list - Sorts a doubly linked list in ascending order
-* using the Insertion sort algorithm
-* @list: Pointer to the head of the doubly linked list
+* 
+* @list: Pointer to the head
 */
 void insertion_sort_list(listint_t **list)
 {
